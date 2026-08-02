@@ -1,8 +1,26 @@
 aid: wave-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wave-therapeutics.png
 name: Wave Therapeutics
-description: Wave Therapeutics is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wave Therapeutics is a healthtech medical-device company founded in 2017 and headquartered in
+  Nashville, Indiana, and backed by Techstars (Future of Longevity). It develops active therapeutic
+  cushioning that helps prevent pressure injuries (bedsores) and reduce blood-clot risk, led by a
+  microprocessor-controlled peristaltic-pump wheelchair cushion paired with monitoring analytics, with
+  a planned fleet of products spanning mattress toppers and consumer seating. Wave Therapeutics is a
+  hardware and clinical-device business and publishes no public developer API, SDK, or developer
+  portal; this profile was surfaced as a Techstars portfolio lead and enriched by the API Evangelist
+  pipeline, which confirmed no API surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/wave-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- MedTech
+- Digital Health
+- Longevity
+- Pressure Injury Prevention
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,12 @@ maintainers:
 common:
 - type: Website
   url: https://wavetherapeuticsinc.com/
+- type: Blog
+  url: https://wavetherapeuticsinc.com/wave-blog/
+- type: BlogRSS
+  url: https://wavetherapeuticsinc.com/feed/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
